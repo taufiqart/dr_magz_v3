@@ -16,36 +16,31 @@ List<StoryData> stories = <StoryData>[
   StoryData(
     title: "HUT RI 77",
     longTitle: "HUT RI 77",
-    url:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/stories/hut_ri.png",
-    urlType: UrlType.network,
+    url: "assets/images/stories/hut_ri.png",
+    urlType: UrlType.asset,
   ),
   StoryData(
     title: "Juara Film",
     longTitle: "Juara Film Pendek",
-    url:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/stories/lomba_film.png",
-    urlType: UrlType.network,
+    url: "assets/images/stories/lomba_film.png",
+    urlType: UrlType.asset,
   ),
   StoryData(
     title: "DR. MAGZ",
     longTitle: "Tim DR. MAGZ",
-    url:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/stories/dr_magz.png",
-    urlType: UrlType.network,
+    url: "assets/images/stories/dr_magz.png",
+    urlType: UrlType.asset,
   ),
   StoryData(
     title: "Tefa",
-    longTitle: "Profmosi Produk",
-    url:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/stories/tefa.png",
-    urlType: UrlType.network,
+    longTitle: "Promosi Produk",
+    url: "assets/images/stories/tefa.png",
+    urlType: UrlType.asset,
   ),
   StoryData(
     title: "Mevicone",
     longTitle: "Tim Mevicone",
-    url:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/stories/mevicone.png",
-    urlType: UrlType.network,
+    url: "assets/images/stories/mevicone.png",
+    urlType: UrlType.asset,
   ),
 ];

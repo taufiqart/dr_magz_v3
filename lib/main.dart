@@ -1,23 +1,14 @@
-import 'package:audioplayers/audioplayers.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:dr_magz/get_mode.dart';
-import 'package:dr_magz/models/artikel_model.dart';
+// import 'package:dr_magz/databases.dart/artikel.dart';
+import 'package:dr_magz/databases.dart/artikel.dart';
+import 'package:dr_magz/databases.dart/db.dart';
 import 'package:dr_magz/models/user_model.dart';
 import 'package:dr_magz/music.dart';
-import 'package:dr_magz/pages.dart';
-import 'package:dr_magz/pages/artikel_view.dart';
-import 'package:dr_magz/pages/config.dart';
-import 'package:dr_magz/pages/homescreen.dart';
-import 'package:dr_magz/pages/intro.dart';
 import 'package:dr_magz/pages/splash.dart';
-import 'package:dr_magz/pages/tester.dart';
 import 'package:dr_magz/preferences.dart';
 import 'package:dr_magz/theme_data.dart';
 import 'package:dr_magz/provider.dart';
-import 'package:fast_cached_network_image/fast_cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -43,12 +34,13 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
-
+    getData();
     isDarkMode = brightness == Brightness.dark;
     WidgetsBinding.instance.addObserver(this);
     getCurrentAppTheme();
     getUser();
     print(users.userName);
+    print(users.userPic);
   }
 
   void getUser() async {
@@ -64,6 +56,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   @override
   Future<void> didChangeAppLifecycleState(AppLifecycleState state) async {
     latestMusic = await MusicPreference().getMusic();
+
     switch (state) {
       case AppLifecycleState.resumed:
         if (latestMusic) {
@@ -123,6 +116,13 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    userPref.setUser(
+      email: user.userName,
+      name: user.userName,
+      pass: user.userPass,
+      userPic: user.userPic,
+      urlType: user.urlType,
+    );
     super.dispose();
   }
 
@@ -139,7 +139,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
           });
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Flutter Demo',
+            title: 'DR. MAGZ',
             theme: Styles.themeData(themeChangeProvider.darkTheme, context),
             // home: SplashScreen(),
             // home: Homescreen(),

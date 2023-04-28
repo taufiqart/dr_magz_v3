@@ -22,28 +22,41 @@ class ArtikelData {
 
 List<ArtikelData> articles = <ArtikelData>[
   ArtikelData(
-    image:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/articles/ubaya.png",
+    image: "assets/images/articles/ubaya.png",
     article:
-        "DR. MAGZ merupakan salah satu perwakilan dari dua tim majalah digital SMKN 1 Pasuruan, yang mengikuti kompetisi majalah digital nasional oleh Maspion IT. Kunjungan ke Politeknik Surabaya atau yang kerap diberi sebutan Ubaya untuk menjalani pelatihan fotografi dan videografi sebagai salah satu rangkaian penilaian, sudah dilakukan tim mereka pada tanggal 1 Desember 2022.\nBerbagai tips dan trik dalam fotografi maupun videografi berhasil disampaikan oleh Ibu Widya Indah Nurmalasari, yang merupakan salah satu dosen prodi perpajakan Politeknik Ubaya sekaligus seorang fotografer yang karyanya tersebar di media sosial.\nPara peserta, termasuk tim DR. MAGZ diberi kesempatan untuk berkeliling Ubaya dan meliput semua kegiatan yang ada di hari itu setelah berakhirnya pelatihan fotografi. Tim DR. MAGZ sendiri kala itu, berhasil meliput sejumlah lab yang biasa digunakan untuk praktikum oleh mahasiswa dan mahasiswi politeknik Ubaya.\n“Saya merasa sangat senang atas kesempatan untuk meliput sejumlah aktivitas dan ruangan yang ada di Politeknik Ubaya. Karena dengan adanya kegiatan tersebut, saya dan teman teman dapat secara langsung menerapkan beberapa ilmu yang telah disampaikan oleh Ibu Widya” Ujar salah satu anggota tim DR. MAGZ\nKunjungan ke Politenik Ubaya untuk pelatihan fotografi dan videografi, merupakan pelatihan terakhir setelah ddilaksanakannya beberapa pelatihan selama 3 hari berturut turut. Pada pelatihan terkahir tersebut juga disampaikan mengenai bagaimana tahapan penilaian majalah digital milik para peserta setelah tahapan pengumpulan majalah digital yang telah dibuat oleh para peserta.",
+        """DR. MAGZ merupakan salah satu perwakilan dari dua tim majalah digital SMKN 1 Pasuruan, yang mengikuti kompetisi majalah digital nasional oleh Maspion IT. Kunjungan ke Politeknik Surabaya atau yang kerap diberi sebutan Ubaya untuk menjalani pelatihan fotografi dan videografi sebagai salah satu rangkaian penilaian, sudah dilakukan tim mereka pada tanggal 1 Desember 2022.
+
+Berbagai tips dan trik dalam fotografi maupun videografi berhasil disampaikan oleh Ibu Widya Indah Nurmalasari, yang merupakan salah satu dosen prodi perpajakan Politeknik Ubaya sekaligus seorang fotografer yang karyanya tersebar di media sosial.
+
+Para peserta, termasuk tim DR. MAGZ diberi kesempatan untuk berkeliling Ubaya dan meliput semua kegiatan yang ada di hari itu setelah berakhirnya pelatihan fotografi. Tim DR. MAGZ sendiri kala itu, berhasil meliput sejumlah lab yang biasa digunakan untuk praktikum oleh mahasiswa dan mahasiswi politeknik Ubaya.
+
+“Saya merasa sangat senang atas kesempatan untuk meliput sejumlah aktivitas dan ruangan yang ada di Politeknik Ubaya. Karena dengan adanya kegiatan tersebut, saya dan teman teman dapat secara langsung menerapkan beberapa ilmu yang telah disampaikan oleh Ibu Widya” Ujar salah satu anggota tim DR. MAGZ
+
+Kunjungan ke Politenik Ubaya untuk pelatihan fotografi dan videografi, merupakan pelatihan terakhir setelah ddilaksanakannya beberapa pelatihan selama 3 hari berturut turut. Pada pelatihan terkahir tersebut juga disampaikan mengenai bagaimana tahapan penilaian majalah digital milik para peserta setelah tahapan pengumpulan majalah digital yang telah dibuat oleh para peserta.""",
     title: "DR. MAGZ ke Ubaya",
     datetime: "1 day ago",
-    liked: true,
-    urlType: UrlType.network,
+    liked: false,
+    urlType: UrlType.asset,
   ),
   ArtikelData(
-    image:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/articles/mevicone.png",
+    image: "assets/images/articles/mevicone.png",
     article:
-        "Berorganisasi di sekolah merupakan hal yang sudah biasa dilakukan oleh para siswa siswi. Namun sebuah komunitas suatu jurusan merupakan hal yang terdengar menarik dan tidak semua sekolah mempunyainya. Hal tersebut lain oleh SMKN 1 Pasuruan, sebuah komunitas multimedia yang didirikan pada tahun 2019 kini kian berkembang sangat pesat\nMevicone atau yang memilki kepanjangan Media Visual Creative One, merupakan satu satunya kreatif studio yang dimilki sekolah SMK di Kota Pasuruan. Komunitas ini berisikan para siswa siswi jurusan Multimedia dan DKV SMKN 1 Pasuruan yang berminat untuk mengembangkan skill jurusannya. Dalam komunitas ini terdapat beberapa divisi yang bertugas, diantaranya divisi desain, divisi foto, divisi video, divisi marketing, dan divisi pemasaran.\nSelain sebagai wadah untuk mengembangkan skill jurusan, komunitas ini juga mengajarkan untuk berwirausaha sesuai divisi yang ada. Berbagai permintaan klien berhasil dilayani oleh para siswa sisiwi yang berkecimpung di komunitas ini.\nSelain siswa siswi belajar berwirausaha, tak lupa mereka juga selalu mencetak prestasi. Prestasi yang akhir akhir ini melonjak adalah presatasi di dunia film. Nama komunitas Mevicone pada masa ini, sangat tersanjung oleh para siswa siswi jurusan lain dan para guru SMKN 1 Pasuruan. Bagaimana tidak, berawal dari mulainya masa new normal para siswa siswi komunitas Mevicone mencoba untuk kembali bangkit dengan mengikuti berbagai kompetisi utamanya di bidang perfilman. Proses produksi yang panjang selalu membuahkan hasil dengan hadirnya berbagai piala yang berhasil diraih. Panggilan maju ke tengah lapangan di saat upacara bendera untuk penyerahan penghargaan oleh Bapak kepala sekolah SMKN 1 Pasuruan berulang kali dilakuakan secara bergilir oleh tim Mevicone.\n“Sungguh mengharumkan prestasinya, perjuangan yang panjang selalu membuahkan hasil yang memuaskan.” Mungkin kalimat tersebut pantas diucapakan kepada tim Mevicone.",
+        """Berorganisasi di sekolah merupakan hal yang sudah biasa dilakukan oleh para siswa siswi. Namun sebuah komunitas suatu jurusan merupakan hal yang terdengar menarik dan tidak semua sekolah mempunyainya. Hal tersebut lain oleh SMKN 1 Pasuruan, sebuah komunitas multimedia yang didirikan pada tahun 2019 kini kian berkembang sangat pesat.
+
+Mevicone atau yang memilki kepanjangan Media Visual Creative One, merupakan satu satunya kreatif studio yang dimilki sekolah SMK di Kota Pasuruan. Komunitas ini berisikan para siswa siswi jurusan Multimedia dan DKV SMKN 1 Pasuruan yang berminat untuk mengembangkan skill jurusannya. Dalam komunitas ini terdapat beberapa divisi yang bertugas, diantaranya divisi desain, divisi foto, divisi video, divisi marketing, dan divisi pemasaran.
+
+Selain sebagai wadah untuk mengembangkan skill jurusan, komunitas ini juga mengajarkan untuk berwirausaha sesuai divisi yang ada. Berbagai permintaan klien berhasil dilayani oleh para siswa sisiwi yang berkecimpung di komunitas ini.
+
+Selain siswa siswi belajar berwirausaha, tak lupa mereka juga selalu mencetak prestasi. Prestasi yang akhir akhir ini melonjak adalah presatasi di dunia film. Nama komunitas Mevicone pada masa ini, sangat tersanjung oleh para siswa siswi jurusan lain dan para guru SMKN 1 Pasuruan. Bagaimana tidak, berawal dari mulainya masa new normal para siswa siswi komunitas Mevicone mencoba untuk kembali bangkit dengan mengikuti berbagai kompetisi utamanya di bidang perfilman. Proses produksi yang panjang selalu membuahkan hasil dengan hadirnya berbagai piala yang berhasil diraih. Panggilan maju ke tengah lapangan di saat upacara bendera untuk penyerahan penghargaan oleh Bapak kepala sekolah SMKN 1 Pasuruan berulang kali dilakuakan secara bergilir oleh tim Mevicone.
+
+“Sungguh mengharumkan prestasinya, perjuangan yang panjang selalu membuahkan hasil yang memuaskan.” Mungkin kalimat tersebut pantas diucapakan kepada tim Mevicone.""",
     title: "Mevicone Bangkit",
     datetime: "1 day ago",
-    liked: true,
-    urlType: UrlType.network,
+    liked: false,
+    urlType: UrlType.asset,
   ),
   ArtikelData(
-    image:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/articles/teater.png",
+    image: "assets/images/articles/teater.png",
     article: """Siapa sih yang belum kenal dengan eskul ini? 
 
 Teater Srengenge adalah salah satu ekskul yang dimiliki oleh Skensa. Ekskul ini dibina oleh Pak Rosidi.  Selain untuk mengasah kemampuan siswa-siswi Skensa, teater  Srengenge juga dapat melatih kepercayaan diri, dan melatih mental agar berani tampil di depan umum. 
@@ -54,11 +67,10 @@ Ekskul ini mengalami peningkatan yang sangat pesat sejak 5 tahun dari awal pembe
     title: "Teater Srengenge",
     datetime: "1 day ago",
     liked: false,
-    urlType: UrlType.network,
+    urlType: UrlType.asset,
   ),
   ArtikelData(
-    image:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/articles/pramuka.png",
+    image: "assets/images/articles/pramuka.png",
     article:
         """Ektrakulikuler Pramuka merupakan salah satu kegiatan pembelajaran non akademik di SMKN 1 Pasuruan yang memiliki tujuan yaitu meningkatkan kompetensi (nilai-nilai dan keterampilan), membangun karakter kedisiplinan, kemandirian dan Kepemimpinan para peserta didik.
 
@@ -76,11 +88,10 @@ Menurut salah satu anggota pramuka, sudah ada rencana untuk program kerja, yaitu
     title: "Giat Eskul Pramuka",
     datetime: "1 day ago",
     liked: false,
-    urlType: UrlType.network,
+    urlType: UrlType.asset,
   ),
   ArtikelData(
-    image:
-        "https://www.skensadigimagzcenter.site/dr_magz/images/articles/harmonie.png",
+    image: "assets/images/articles/harmonie.png",
     article:
         """Pemerintah Kota Pasuruan melakukan pemolesan wajah Gedung Harmonie, yang merupakan salah satu cagar budaya di Kota Pasuruan. Beberapa pembongkaran dilakukan untuk memulai wisata integrasi di Kota Pasuruan. Pertama, Pemkot Pasuruan melakukan pembongkaran pagar depan gedung yang didirikan sekitar tahun 1887 itu. Kedua, digantinya konsep trotoar. Dan ketiga, pengecatan ulang gedung dan memasang lampu dan pot-pot.
 
@@ -91,6 +102,6 @@ Diharapkan warga Kota Pasuruan dapat menanamkan rasa bangga dan memiliki. Sehing
     title: "Cagar Budaya Harmoni",
     datetime: "1 day ago",
     liked: false,
-    urlType: UrlType.network,
+    urlType: UrlType.asset,
   ),
 ];

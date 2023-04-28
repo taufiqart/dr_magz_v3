@@ -14,15 +14,15 @@ class HomeModel {
 
 List<HomeModel> homeCarousel = <HomeModel>[
   HomeModel(
-    url: "https://www.skensadigimagzcenter.site/dr_magz/images/beranda1.png",
-    urlType: UrlType.network,
+    url: "assets/images/beranda1.png",
+    urlType: UrlType.asset,
   ),
   HomeModel(
-    url: "https://www.skensadigimagzcenter.site/dr_magz/images/beranda2.png",
-    urlType: UrlType.network,
+    url: "assets/images/beranda2.png",
+    urlType: UrlType.asset,
   ),
   HomeModel(
-    url: "https://www.skensadigimagzcenter.site/dr_magz/images/beranda3.png",
-    urlType: UrlType.network,
+    url: "assets/images/beranda3.png",
+    urlType: UrlType.asset,
   ),
 ];

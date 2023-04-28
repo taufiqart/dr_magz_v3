@@ -19,11 +19,11 @@ class MajalahData {
 
 List<MajalahData> majalahs = <MajalahData>[
   MajalahData(
-    image: "https://www.skensadigimagzcenter.site/dr_magz/images/poster.png",
+    image: "assets/images/poster.png",
     desc:
         "Imajinasi dunia akan segera datang, dunia virtual  oleh teknolgi digital dan dunia fisik. Representasi nyata dari internet, pengguna berinteraksi satu sama lain dengan realistis. ",
     datetime: "23 November 2022",
     majalah: isi[0],
-    urlType: UrlType.network,
+    urlType: UrlType.asset,
   ),
 ];
